@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">smtp</value>
+  <value name="node_nsName">project.mjan08sept.smtp.connections:SMTPAccount</value>
+  <value name="node_pkg">MJAN08SeptProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">MJAN08SeptProject.project.mjan08sept.smtp.connections:SMTPAccount</value>
+  <value name="connectionName">SMTPAccount</value>
+  <value name="description"></value>
+  <value name="mailhost">smtp.gmail.com</value>
+  <value name="mailhostPort">587</value>
+  <value name="from">testuserwebm@gmail.com</value>
+  <value name="authType">basic</value>
+  <value name="user"> testuserwebm@gmail.com</value>
+  <value name="pass">project.mjan08sept.smtp.connections.SMTPAccount.pass</value>
+  <value name="token"></value>
+  <value name="transportLayerSecurity">explicit</value>
+  <null name="truststoreAlias"/>
+  <value name="packageName">MJAN08SeptProject</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Manoj.Jannu@ibm.com</value>
+    <value name="createdDate">2026-09-08T19:16:07.466857533Z</value>
+    <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-08T19:16:07.466857533Z</value>
+  </record>
+</Values>
