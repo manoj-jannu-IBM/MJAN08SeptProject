@@ -27,6 +27,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1127
+- serviceName: project.mjan08sept.integrations:SMTPConnectorTest
+  packages:
+  - name: MJAN08SeptProject
+    version: "1.0"
+- serviceName: pub.client:smtp
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1127
 - serviceName: project.mjan08sept.pgp.connections:PGPAccount
   packages:
   - name: MJAN08SeptProject
