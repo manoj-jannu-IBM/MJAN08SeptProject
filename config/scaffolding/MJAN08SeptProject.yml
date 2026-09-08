@@ -7,11 +7,22 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: TechnologyConnector
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
 - serviceName: project.mjan08sept.http.connections:HttpAccount
   packages:
   - name: MJAN08SeptProject
     version: "1.0"
+- serviceName: project.mjan08sept.integrations:HTTPConnectorTest
+  packages:
+  - name: MJAN08SeptProject
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
