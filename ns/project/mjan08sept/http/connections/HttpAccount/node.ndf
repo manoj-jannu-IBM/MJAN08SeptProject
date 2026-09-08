@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">httpAccount</value>
+  <value name="node_nsName">project.mjan08sept.http.connections:HttpAccount</value>
+  <value name="node_pkg">MJAN08SeptProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">MJAN08SeptProject.project.mjan08sept.http.connections:HttpAccount</value>
+  <value name="connectionName">HttpAccount</value>
+  <value name="auth">none</value>
+  <null name="checkCRL"/>
+  <value name="cipherSuites"></value>
+  <value name="connectTimeout">300000</value>
+  <value name="followRedirect"></value>
+  <null name="hostNameVerification"/>
+  <value name="keepAliveTimeout">180</value>
+  <null name="keyAlias"/>
+  <null name="keystoreAlias"/>
+  <value name="maxKeepAliveConnections">0</value>
+  <value name="newSession">no</value>
+  <value name="pass"></value>
+  <value name="timeout">300000</value>
+  <value name="token"></value>
+  <null name="trustStore"/>
+  <value name="url">https://www.google.com</value>
+  <value name="user"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Manoj.Jannu@ibm.com</value>
+    <value name="createdDate">2026-09-08T07:05:34.322172861Z</value>
+    <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-08T07:05:34.322172861Z</value>
+  </record>
+</Values>
