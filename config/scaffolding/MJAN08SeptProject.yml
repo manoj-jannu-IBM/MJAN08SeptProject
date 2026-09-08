@@ -19,6 +19,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1127
+- serviceName: project.mjan08sept.integrations:PGPConnectorTest
+  packages:
+  - name: MJAN08SeptProject
+    version: "1.0"
+- serviceName: pub.security:signAndEncrypt
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1127
 - serviceName: project.mjan08sept.pgp.connections:PGPAccount
   packages:
   - name: MJAN08SeptProject
