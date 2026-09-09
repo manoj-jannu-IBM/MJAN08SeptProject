@@ -6,7 +6,7 @@ packages:
   gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: "09092026"
+  gitBranch: main
 - name: TechnologyConnector
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
