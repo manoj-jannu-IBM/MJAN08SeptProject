@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">ftpAccount</value>
+  <value name="node_nsName">project.mjan08sept.ftp.connections:FTPAccount</value>
+  <value name="node_pkg">MJAN08SeptProject</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">8cfd052cd0d048b99ea8dfa27454d426</value>
+    <value name="connectionName">FTPAccount</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">ftpconnector</value>
+    <value name="connectorType">ftp</value>
+    <value name="description"></value>
+    <null name="instanceId"/>
+    <value name="password">*****</value>
+    <value name="projectName">MJAN08Sept</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="serverhost">demo.wftpserver.com</value>
+    <value name="serverport">21</value>
+    <value name="sslconfig">false</value>
+    <value name="timeout">60</value>
+    <null name="updateAsset"/>
+    <value name="username">demo</value>
+    <value name="passwordhandle">wm.is.admin.project.mjan08sept.ftp.connections:FTPAccount</value>
+  </record>
+  <value name="assetId">MJAN08SeptProject.project.mjan08sept.ftp.connections:FTPAccount</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Manoj.Jannu@ibm.com</value>
+    <value name="createdDate">2026-09-09T03:07:36.112001465Z</value>
+    <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="lastModifiedDate">2026-09-09T03:07:36.112001465Z</value>
+  </record>
+</Values>
