@@ -11,6 +11,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
+- serviceName: project.mjan08sept.ftp.connections:FTPAccount
+  packages:
+  - name: MJAN08SeptProject
+    version: "1.0"
 - serviceName: project.mjan08sept.integrations:HTTPConnectorTest
   packages:
   - name: MJAN08SeptProject
