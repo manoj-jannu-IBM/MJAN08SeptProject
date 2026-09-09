@@ -39,6 +39,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1127
+- serviceName: project.mjan08sept.integrations:PGPConnectorTest1
+  packages:
+  - name: MJAN08SeptProject
+    version: "1.0"
 - serviceName: project.mjan08sept.integrations:SMTPConnectorTest
   packages:
   - name: MJAN08SeptProject
