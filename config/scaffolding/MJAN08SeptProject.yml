@@ -11,6 +11,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 - name: DADA_SpecificationsTest
+  version: "1.0"
   gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -56,6 +57,12 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1129
+- serviceName: project.mjan08sept.integrations:SpecificationTestSample1
+  packages:
+  - name: MJAN08SeptProject
+    version: "1.0"
+  - name: DADA_SpecificationsTest
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
